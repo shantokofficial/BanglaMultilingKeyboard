@@ -19,7 +19,7 @@
         <Button style="@style/MlBanglaActionKey" android:text="।" />
         <Button style="@style/MlBanglaActionKey" android:text="?" />
         <Button style="@style/MlBanglaActionKey" android:text="," />
-        <Button style="@style/MlBanglaActionKey" android:text="\"" />
+        <Button style="@style/MlBanglaActionKey" android:text="&quot;" />
         <Button style="@style/MlBanglaActionKey" android:text="'" />
         <Button style="@style/MlBanglaActionKey" android:text=":" />
     </LinearLayout>
