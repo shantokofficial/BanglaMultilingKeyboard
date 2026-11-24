@@ -99,7 +99,7 @@
             android:id="@+id/btnMlSymbol"
             style="@style/MlBanglaActionKey"
             android:layout_weight="1.35"
-            android:text="&#63;123" />
+            android:text="@string/ml_symbol_key" />
         <Button
             android:id="@+id/btnMlEmoji"
             style="@style/MlBanglaActionKey"
