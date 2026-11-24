@@ -20,7 +20,8 @@
             android:name=".BanglaInputMethodService"
             android:exported="true"
             android:label="Bangla Multiling Keyboard"
-            android:permission="android.permission.BIND_INPUT_METHOD">
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:directBootAware="true">
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
             </intent-filter>
