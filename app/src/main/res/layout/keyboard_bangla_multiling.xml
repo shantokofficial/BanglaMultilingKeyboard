@@ -104,9 +104,9 @@
             android:id="@+id/btnMlEmoji"
             style="@style/MlBanglaActionKey"
             android:layout_weight="1.0"
-            android:text="🎙" />
+            android:text="😀" />
         <Button
-            android:id="@+id/btnMlLangSwitch"
+            android:id="@+id/btnMlSpace"
             style="@style/MlBanglaSpaceKey"
             android:layout_weight="3.8"
             android:text="◀ বাংলা ▶" />
