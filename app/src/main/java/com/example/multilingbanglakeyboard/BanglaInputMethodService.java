@@ -69,12 +69,14 @@ public class BanglaInputMethodService extends InputMethodService {
             });
         }
 
-        View btnLangSwitch = root.findViewById(R.id.btnMlLangSwitch);
+        // Bengali space key: tap inserts a space; long-press switches to English.
+        View btnLangSwitch = root.findViewById(R.id.btnMlSpace);
         if (btnLangSwitch != null) {
-            btnLangSwitch.setOnClickListener(v -> {
+            btnLangSwitch.setOnLongClickListener(v -> {
                 currentMode = KeyboardMode.ENGLISH;
                 isShifted = false;
                 setInputView(inflateCurrentKeyboard());
+                return true;
             });
         }
 
